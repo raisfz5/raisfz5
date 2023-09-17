@@ -6,7 +6,7 @@
 <style>#closefloat{cursor:pointer;font-size:5px;position:absolute;right:0;top:40%;background:rgba(1,0,1,.4);padding:2px 2px 0 2px;border-radius:50% 0 0 50%;z-index:8}.fb-btn-zuamsyah{border-radius:5px;background:rgba(1,0,1,0.0);position:fixed;bottom:0;left:0;z-index:9;box-shadow:0 1px 4px rgb(0 0 0 / 20%);display:block;-moz-animation:atas 10s;-webkit-animation:atas 10s;animation:atas 10s;border-radius:2px;width:100%;max-width:100%;max-height:100px}.fb-btn-zuamsyah2{-moz-animation:atas 10s;-webkit-animation:atas 10s;animation:atas 10s;position:relative}.fb-btn-zuamsyah a:link,.fb-btn-zuamsyah a:visited{color:#fff}.fb-btn-zuamsyah a:hover{color:#fff}.post-body h2{display:block;padding:5px 22px;background:#636363;color:#fff;font-size:1.45rem;border-radius:4px;box-shadow:grey 0 2px 5px}</style>
 <script>window.onload = function(){ document.getElementById('closefloat').onclick = function(){ this.parentNode.parentNode.parentNode .removeChild(this.parentNode.parentNode); return false; }; };</script> <div class="fb-btn-zuamsyah"><div class="fb-btn-zuamsyah2">
 
-<!—sisipkan kode iklan mulai dari sini-->
+<!--sisipkan kode iklan mulai dari sini-->
 
 
 <div style="display: block; width: 100%; height: 200px; margin: auto; background-color: #fff;text-align: center; overflow: auto;  ">
@@ -511,7 +511,7 @@ var script_url=HOST+"/feeds/posts/default";bcd140526_index_label&&(script_url+="
 
 
 <br /><div style="text-align: center;"><b style="font-family: arial;"><a href="/2023/" rel="nofollow" target="_blank">《First Page《Prev&nbsp;&nbsp;1-2-3-4-5-6-7...&nbsp; Next》Last Page》</a></b></div><br /><br />
-
+<br /><br /><br /><br />
 
 
 
