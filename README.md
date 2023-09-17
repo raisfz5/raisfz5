@@ -268,7 +268,7 @@ var script_url=HOST+"/feeds/posts/default";bcd140526_index_label&&(script_url+="
 
 </script>
 
-
+<iframe width="100%" height="524" src="https://www.youtube.com/embed/U-mNlML_bjg" title="Bangla Road Patong Beach Phuket | Go Go Bar  Beer Bar Girl バングラ ロード パトン ビーチ プーケット | ゴーゴーバー  バービア散歩" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <script type="text/javascript">
 /*
