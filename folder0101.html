@@ -1,3 +1,95 @@
+
+<style media='all' type='text/css'>
+.bwstoc {
+ margin: 10px 0;
+ background: #F0F0F0;
+ border: 1px solid #ddd;
+}
+.bwstoc ol, .bwstoc ul {
+ margin: 0 0 15px 20px;
+ padding: 0;
+}
+.bwstoc ul {
+ list-style: disc;
+}
+.bwstoc ol li, .bwstoc ul li {
+ font-size: 95%;
+ padding: 5px 10px 0 0;
+ margin: 0 0 0 30px;
+}
+.bwstoc a {
+ text-decoration: none;
+}
+.bwstoc a:hover {
+ text-decoration: underline;
+}
+.bwstoc .bwstocHeader {
+ font-weight: bold;
+ font-size: 100%;
+ position: relative;
+ outline: none;
+ border: none;
+ padding: 5px 15px 5px 5px;
+ margin: 5px 10px;
+}
+.bwstoc .bwstocHeader a {
+ text-decoration: none;
+ cursor: pointer;
+}
+.bwstoc .bwstocHeader a:hover {
+ text-decoration: underline;
+}
+</style>
+<!-- Blogger TOC -->
+<script type='text/javascript'>
+//<![CDATA[
+function bwstoc() {
+ var bwstoc = i = headinglength = getheading = 0;
+ headinglength = document.getElementById("post-toc").querySelectorAll("h2, h3, h4").length;
+ if (headinglength > 1) { 
+ // Hanya Tampil Jika Ditemukan Minimal 2 Heading
+ for (i = 0; i < headinglength; i++) {
+ getheading = document.getElementById("post-toc").querySelectorAll("h2, h3, h4")[i].textContent;
+ var bws_1 = getheading.replace(/[^a-z0-9]/gi," ");
+ var bws_2 = bws_1.trim();
+ var getHeadUri = bws_2.replace(/s/g, "_");
+ document.getElementById("post-toc").querySelectorAll("h2, h3, h4")[i].setAttribute("id", getHeadUri);
+ bwstoc = "<li><a href='#" + getHeadUri + "'>" + getheading + "</a></li>";
+ document.getElementById("bwstoc").innerHTML += bwstoc;
+ }
+ } else { document.write("<style>.bwstoc{display:none !important;visibility:hidden !important;width:0 !important;height:0 !important;}</style>"); }
+}
+function bwstocShow() {
+    var bwstocBtn = document.getElementById('bwstoc');
+ var bwstocWrapID = document.getElementById('bwstocwrap');
+ var bwstocLink = document.getElementById('bwstocLink');
+    if (bwstocBtn.style.display === 'none') {
+        bwstocBtn.style.display = 'block';
+ bwstocWrapID.style.display = 'block';
+ bwstocLink.innerHTML = 'Close';
+ 
+    } else {
+        bwstocBtn.style.display = 'none';
+ bwstocWrapID.style.display = 'inline-block';
+ bwstocLink.innerHTML = 'Show';
+    }
+}
+//]]>
+</script>
+<noscript><style media='all' type='text/css'>#bwstocwrap,.bwstoc{display:none !important;visibility:hidden !important;width:0 !important;height:0 !important;}</style></noscript>
+<br />
+<div id='post-toc'><br />
+
+
+
+<div id='bwstocwrap' class='bwstoc' style='display:inline-block;'><div class='bwstocHeader'><a id='bwstocLink' onclick='bwstocShow()'>Show</a></div><ul id='bwstoc' style='display:none'/></ul></div>
+
+
+<!--tuliskonten disini 🥰🥰🥰🥰🥰🥰 -->
+
+
+
+
 <style>#closefloat{cursor:pointer;font-size:5px;position:absolute;right:0;top:40%;background:rgba(1,0,1,.4);padding:2px 2px 0 2px;border-radius:50% 0 0 50%;z-index:8}.fb-btn-zuamsyah{border-radius:5px;background:rgba(1,0,1,0.0);position:fixed;bottom:0;left:0;z-index:9;box-shadow:0 1px 4px rgb(0 0 0 / 20%);display:block;-moz-animation:atas 10s;-webkit-animation:atas 10s;animation:atas 10s;border-radius:2px;width:100%;max-width:100%;max-height:100px}.fb-btn-zuamsyah2{-moz-animation:atas 10s;-webkit-animation:atas 10s;animation:atas 10s;position:relative}.fb-btn-zuamsyah a:link,.fb-btn-zuamsyah a:visited{color:#fff}.fb-btn-zuamsyah a:hover{color:#fff}.post-body h2{display:block;padding:5px 22px;background:#636363;color:#fff;font-size:1.45rem;border-radius:4px;box-shadow:grey 0 2px 5px}</style>
 <script>window.onload = function(){ document.getElementById('closefloat').onclick = function(){ this.parentNode.parentNode.parentNode .removeChild(this.parentNode.parentNode); return false; }; };</script> <div class="fb-btn-zuamsyah"><div class="fb-btn-zuamsyah2">
 
@@ -727,3 +819,7 @@ var script_url=HOST+"/feeds/posts/default";bcd140526_index_label&&(script_url+="
 <script src="https://www.qpwoeiruty.biz.id/feeds/posts/default/?start-index=1&max-results=9999&amp;alt=json-in-script&amp;callback=rak_info_Load"></script>
 </div>
 	</div></div></div></span>
+<script>bwstoc();</script>
+</div>
+
+	
