@@ -513,7 +513,7 @@ var script_url=HOST+"/feeds/posts/default";bcd140526_index_label&&(script_url+="
 <br />
 
 
-<b style="font-family: arial;"><a href="/2023/" rel="nofollow" target="_blank">《First Page《Prev&nbsp;&nbsp;1-2-3-4-5-6-7...&nbsp; Next》Last Page》</a></b>
+<b style="font-family: arial;"><a href="xselebgram.xyz/2023/" rel="nofollow" target="_blank">《First Page《Prev&nbsp;&nbsp;1-2-3-4-5-6-7...&nbsp; Next》Last Page》</a></b>
 
 <br /><br />
 <br /><br /><br /><br />
